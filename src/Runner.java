@@ -14,7 +14,7 @@ public class Runner {
         Car g = new Car(2564, "Sparrow", "IG", 1993, "purple", 25692, 1234);
         Car h = new Car(3312, "Withdraw", "Blub", 2007, "yellow", 14999, 4321);
         Car i = new Car(2564, "Sparrow", "IG", 1993, "purple", 25692, 1234);
-        Car j = new Car(3312, "Withdraw", "Blub", 2007, "yellow", 14999, 4321);
+        Car j = new Car(3312, "Withdraw", "Blub", 2007, "yellow", 14999, 4320);
 
         System.out.println();
         System.out.println();
