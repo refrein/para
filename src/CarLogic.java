@@ -14,9 +14,10 @@ public class CarLogic {
     }
 
     public ArrayList sortCarByModel(String model, int year, Car... car){
+        int currentYear = 2018;
         ArrayList<Car> list = new ArrayList<Car>();
         for (int i = 0; i < car.length; i++) {
-            if (car[i].getModel().equals(model) && car[i].getYear() == year){
+            if (car[i].getModel().equals(model) && (currentYear - car[i].getYear()) > year){
                 list.add(car[i]);
             }
         } return list;
